@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FaUser } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 import { useMutation } from "@apollo/client";
 import { ADD_CLASSROOM } from "../mutations/classRoomMutation";
 
@@ -24,7 +24,7 @@ const AddClassRoomModal = () => {
             <div>
                 <button type="button" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#addClassRoomModal">
                     <div className='d-flex align-items-center'>
-                        <FaUser className="icon" />
+                        <FaHome className="icon" />
                         <div>Add ClassRoom</div>
                     </div>
                 </button>

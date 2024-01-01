@@ -188,7 +188,7 @@ const RootQuery=new GraphQLObjectType({
             resolve(parent,args){
                 return Teacher.find();
             }
-        }
+        },
     }
 })
 
