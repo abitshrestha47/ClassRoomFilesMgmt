@@ -47,7 +47,6 @@ const AddCourseFileModal = () => {
                         <tr>
                             <th>SNo.</th>
                             <th>File Name</th>
-                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>

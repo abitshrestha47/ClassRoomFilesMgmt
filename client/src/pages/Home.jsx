@@ -9,11 +9,11 @@ const Home = () => {
         <>
             <div className='d-flex gap-3 mb-4'>
                 <AddClassRoomModal />
-                <AddTeacherModal/>
+                {/* <AddTeacherModal/> */}
             </div>
             <ClassRooms />
             <hr/>
-            <Teachers/>
+            {/* <Teachers/> */}
         </>
     )
 }

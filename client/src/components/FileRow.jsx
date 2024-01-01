@@ -9,9 +9,9 @@ const FileRow = ({file,index}) => {
     <tr>
         <td>{index + 1}</td>
         <td><a href="#" onClick={()=>view(file.fileName)}>{file.fileName}</a></td>
-        <td>
+        {/* <td>
             <button className='btn btn-danger btn-sm'><FaTrash/></button>
-        </td>
+        </td> */}
     </tr>  )
 }
 
